@@ -1,0 +1,370 @@
+/* ================================================
+                generals
+================================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'roboto-light';
+    src: url('../fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+
+html {
+    font-size: 10px;
+    font-family: 'roboto-light';
+}
+
+h1 {
+    font-family: 'roboto-bold';
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: 'roboto-bold';
+    font-size: 6rem;
+}
+
+h3 {
+    font-family: 'roboto-bold';
+    font-size: 8rem;
+    color: #dddddd;
+}
+
+p {
+    font-family: 'roboto-light';
+    font-size: 2rem;
+}
+
+.icon-selector {
+    width: 40px;
+}
+
+/* ================================================
+            header general & logo
+================================================ */
+
+header {
+    /* setting article with logo and text / div with images at the coresponding end */
+    display: flex;
+    justify-content: space-between;
+}
+
+header article {
+    width: 50%;
+}
+
+header .logo {
+    margin: 4vh 1vh 0  3.5vw;
+}
+
+header .logo .sticky-logo {
+    position: fixed;
+    top: 4vh;
+}
+
+header .logo .logo-text {
+    display: inline-block;
+    margin-left: 4vw;
+}
+
+header .logo .logo-text p{
+    font-size: 1.6rem;
+}
+
+/* ================================================
+                header div images
+================================================ */
+
+
+header div {
+    width: 50%;
+    position: relative;
+}
+
+header div img:nth-of-type(1){
+    width: 100%;
+}
+
+header div img:nth-of-type(2) {
+    width: 100%;
+    position: absolute;
+    right: 1px;
+}
+
+#floating-men {
+    animation-name: floating-men;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes floating-men {
+    0% {top: 0px;}
+    25% {top: 20px;}
+    50% {top: 40px;}
+    75% {top: 20px;}
+    100% {top: 0px;}
+}
+
+/* ================================================
+            header how-to-intro
+================================================ */
+
+
+header .how-to-intro {
+    margin-top: 27vh;
+    margin-left: 15%;
+}
+
+header .how-to-intro h2 {
+    width: 100%;
+}
+
+header .how-to-intro p:nth-of-type(1){
+    width: 100%;
+    margin-top: 4vh;
+    margin-bottom: 20vh;
+    font-size: 2.2rem;
+}
+
+header .how-to-intro p:nth-of-type(1) img{
+    margin: 0;
+    padding: 0;
+}
+
+header .how-to-intro p:nth-of-type(2){
+    font-family: 'roboto-bold';
+    text-transform: uppercase;
+    color: #ff3571;
+    margin-bottom: 20vh;
+}
+
+/* ================================================
+            main
+================================================ */
+
+main {
+    margin: 0;
+}
+
+/* ================================================
+            main hero-img
+================================================ */
+
+main div .hero-img {
+    margin: 0;
+    width: 100%;
+}
+
+/* ================================================
+            main lightbulb-article
+================================================ */
+
+main .lightbulb-article {
+    display: flex;
+    gap: 15%;
+    margin: 30vh 7.5%;
+}
+
+main .lightbulb-article h2 {
+    width: 25%;
+}
+
+main .lightbulb-article p {
+    width: 50%;
+    line-height: 40px;
+}
+
+/* ================================================
+                main steps-intro
+================================================ */
+
+main .steps-intro {
+    width: 60%;
+    margin: 30vh 7.5%;
+}
+
+/* ================================================
+                main steps-icon
+================================================ */
+
+main .steps-icon {
+    display: flex;
+    gap: 15%;
+    margin: 0 7.5%;
+}
+
+main .steps-icon article {
+    width: 40%;
+    margin: 7vh 0;
+}
+
+main .steps-icon p:nth-of-type(1) {
+    display: inline-block;
+    font-family: 'roboto-bold';
+    padding-left: 20px;
+}
+
+main .steps-icon p:nth-of-type(2) {
+    padding-left: 65px;
+    padding-top: 20px;
+    line-height: 40px;
+    margin-bottom: 5vh;
+}
+
+/* ================================================
+                main lets-go-article
+================================================ */
+
+main .lets-go-article {
+    text-align: center;
+    width: 60%;
+    margin: 20vh auto;
+}
+
+main .lets-go-article h2 {
+    padding: 7vh 0;
+}
+
+main .lets-go-article p {
+    line-height: 40px;
+}
+
+/* ================================================
+                main steps-gallery-odd
+================================================ */
+
+.steps-gallery-img {
+    width: 40%;
+}
+
+main .steps-gallery-odd {
+    display: flex;
+    margin: 10vh 7.5%;
+    align-items: center;
+}
+
+main .steps-gallery-odd article {
+    width: 45%;
+    margin: 20vh auto;
+}
+
+main .steps-gallery-odd p:nth-of-type(1) {
+    font-family: 'roboto-bold';
+    padding: 30px 0;
+}
+
+main .steps-gallery-odd p:nth-of-type(2) {
+    line-height: 40px;
+}
+
+/* ================================================
+                main steps-gallery-even
+================================================ */
+
+main .steps-gallery-even {
+    display: flex;
+    margin: 10vh 7.5%;
+    align-items: center;
+}
+
+main .steps-gallery-even article {
+    width: 45%;
+    margin: 20vh auto;
+}
+
+main .steps-gallery-even p:nth-of-type(1) {
+    font-family: 'roboto-bold';
+    padding: 30px 0;
+}
+
+main .steps-gallery-even p:nth-of-type(2) {
+    line-height: 40px;
+}
+
+/* ================================================
+                main form-n-popup
+================================================ */
+
+main .form-n-popup {
+    text-align: center;
+    margin-top: 10vh 7.5%;
+}
+
+main .form-n-popup p:nth-of-type(1) {
+    padding-top: 40px;
+}
+
+main .form-n-popup form input{
+    display: block;
+    text-align: center;
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px 0;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+main .form-n-popup form .btn {
+    background-color: #ff3571;
+    color: #fff;
+    width: 13%;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to right, #ff3571, #3C30FF);
+    color: #fff;
+}
+
+/* ================================================
+                main #popup
+================================================ */
+
+#popup {
+    text-align: center;
+    width: 60%;
+    margin: 20vh auto;
+    padding: 10vh 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#popup h2 {
+    padding: 1vh 0;
+    font-size: 3rem;
+}
+
+#popup p {
+    font-size: 1.8rem;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+#popup a {
+    font-family: 'roboto-light';
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #5D3EDE;
+    color: #fff;
+}
+
+/* ================================================
+                footer
+    ================================================ */
+
+footer {
+    margin: 20vh 7.5% 5vh 7.5%;
+}

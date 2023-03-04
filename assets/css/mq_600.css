@@ -1,0 +1,221 @@
+@media only screen and (max-width: 600px) {
+
+    /* ================================================
+                generals
+    ================================================ */
+
+    html {
+        font-size: 8px;
+    }
+
+    /* ================================================
+                header
+    ================================================ */
+
+    header .logo .logo-text {
+        margin-left: 10vw;
+    }
+
+    header .how-to-intro p:nth-of-type(1){
+        margin-bottom: 10vh;
+    }
+
+    /* ================================================
+                main
+    ================================================ */
+
+    main .hero-img {
+        height: 50%;
+    }
+
+    /* ================================================
+                main lightbulb-article
+    ================================================ */
+
+    main .lightbulb-article {
+        flex-direction: column;
+        margin: 20vh 5%;
+        align-items: center;
+    }
+    
+    main .lightbulb-article h2 {
+        width: 90%;
+        text-align: center;
+    }
+    
+    main .lightbulb-article p {
+        width: 80%;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    /* ================================================
+                main steps-intro
+    ================================================ */
+
+    main .steps-intro {
+        width: 90%;
+        margin: 5vh 5%;
+        text-align: center;
+    }
+
+    /* ================================================
+                main steps-icon
+    ================================================ */
+
+    main .steps-icon {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 5%;
+    }
+
+    main .steps-icon article {
+        width: 80%;
+        margin: 2vh auto;
+        text-align: center;
+    }
+
+    main .steps-icon p:nth-of-type(1) {
+        display: block;
+        padding-top: 20px;
+    }
+
+    main .steps-icon p:nth-of-type(2) {
+        padding: 10px 0;
+        margin-bottom: 0;
+        line-height: 30px;
+    }
+
+    /* ================================================
+                main lets-go-article
+    ================================================ */
+
+    main .lets-go-article {
+        width: 90%;
+        margin: 10vh 5%;
+    }
+
+    main .lets-go-article h2 {
+        padding: 3vh 0;
+    }    
+
+    /* ================================================
+                main steps-gallery-odd
+    ================================================ */
+
+    main .steps-gallery-odd {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5vh 0;
+    }
+    
+    main .steps-gallery-odd article {
+        width: 90%;
+        margin: 2vh 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+
+    main .steps-gallery-odd article .icon-selector {
+        display: none;
+    }
+
+    main .steps-gallery-odd article h3 {
+        font-size: 5rem;
+    }
+
+    main .steps-gallery-odd article p:nth-of-type(1) {
+        font-family: 'roboto-bold';
+        font-size: 5rem;
+        color: #dddddd;
+    }
+
+    main .steps-gallery-odd article p:nth-of-type(2) {
+        line-height: 30px;
+        font-size: 2rem;
+    }
+
+    /* ================================================
+                main steps-gallery-even
+    ================================================ */
+
+    main .steps-gallery-even {
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 10vh 5%;
+    }
+
+    main .steps-gallery-even article {
+        width: 100%;
+        margin: 2vh 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+
+    main .steps-gallery-even article .icon-selector {
+        display: none;
+    }
+
+    main .steps-gallery-even article h3 {
+        font-size: 5rem;
+    }
+
+    main .steps-gallery-even article p:nth-of-type(1) {
+        font-family: 'roboto-bold';
+        font-size: 5rem;
+        color: #dddddd;
+    }
+
+    main .steps-gallery-even article p:nth-of-type(2) {
+        line-height: 30px;
+        font-size: 2rem;
+    }
+
+    /* ================================================
+                main form-n-pop-up
+    ================================================ */
+
+    main .form-n-popup .article-form h2 {
+        width: 90%;
+        text-align: center;
+        margin: 3vh auto;
+    }
+
+    main .form-n-popup p:nth-of-type(1) {
+        font-family: 'roboto-bold';
+    }
+
+    main .form-n-popup form input{
+        display: block;
+        text-align: center;
+        width: 75%;
+        margin: 50px auto;
+        padding: 20px 0;
+        border-style: none;
+        border-radius: 8px;
+        font-size: 2rem;
+    }
+
+    main .form-n-popup form .btn {
+        width: 40%;
+    }
+
+    /* ================================================
+                footer
+    ================================================ */
+
+    footer {
+        margin: 10vh 7.5% 5vh 7.5%;
+        text-align: center;
+    }
+}
